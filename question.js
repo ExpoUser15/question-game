@@ -23,7 +23,7 @@ const arr = [
   "What is the result of 3(4 - y) ≥ 9?"
 ];
 
-const answerArr = ["5", "1", "64", "6", "1/3", "28", "z-2x/5x", "y>4", "y<=1"];
+const answerArr = ["5", "1", "64", "6", "1/3", "28", "y=z-2x/5x", "y>4", "y<=1"];
 
 function askQuestion(question, signal) {
   return new Promise((resolve) => {
